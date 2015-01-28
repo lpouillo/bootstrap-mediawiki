@@ -110,6 +110,9 @@ class BootstrapMediaWikiTemplate extends QuickTemplate {
 								<a href="<?php echo $url_prefix; ?>Grid5000:Home">About</a>
 							</li>
 							<li>
+								<a href="<?php echo $url_prefix; ?>Grid5000:News">News</a>
+							</li>
+							<li>
 								<a href="<?php echo $url_prefix; ?>Grid5000:Partners">Partners</a>
 							</li>
 							<li>
