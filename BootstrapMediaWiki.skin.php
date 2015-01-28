@@ -240,7 +240,7 @@ class BootstrapMediaWikiTemplate extends QuickTemplate {
 				<?php $this->includePage('Bootstrap:Footer'); ?></br>
 				
 				<p style="text-align:center">
-				<img width="100%" src='/mediawiki/skins/bootstrap/images/g5k_fundings.svg' alt='Logo'/>
+				<img width="100%" src='/mediawiki/skins/bootstrap-mediawiki-g5k/images/g5k_fundings.svg' alt='Logo'/>
 				</p> 
 				<footer> 
 					<p>&copy; <?php echo date('Y'); ?> by <a href="<?php echo (isset($wgCopyrightLink) ? $wgCopyrightLink : 'http://borkweb.com'); ?>"><?php echo (isset($wgCopyright) ? $wgCopyright : 'BorkWeb'); ?></a> 
