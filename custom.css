@@ -2,8 +2,13 @@ a {
 	color: #95C901;
 }
 
+#wiki-body a {
+    font-weight:bold;
+}
+
 #wiki-body h1, #wiki-body h2, #wiki-body h3, #wiki-body h4, #wiki-body h5 {
-	color: #FD9A01;
+    color: #FD9A01;
+    font-weight:bold;
 	
     padding: 3px;
     margin-top: 10px;    
