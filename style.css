@@ -43,7 +43,7 @@ p {
 
 .navbar-brand img {
 	margin-right: 0.5em;
-	max-height: 30px;
+	max-height: 76px;
 }
 
 .navbar input {
@@ -449,7 +449,7 @@ pre.linenums ol {
 /* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
 .subnav-fixed {
 	position: fixed;
-	top: 49px;
+	top: 79px;
 	left: 0;
 	right: 0;
 	z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */

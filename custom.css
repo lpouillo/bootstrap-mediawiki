@@ -1,83 +1,28 @@
-.jumbotron {
-	background-color: #333;
-	color: #eee;
+a {
+	color: #95C901;
 }
 
-.jumbotron pre {
-	color: #eee;
+#wiki-body h1, #wiki-body h2, #wiki-body h3, #wiki-body h4, #wiki-body h5 {
+	color: #FD9A01;
+	
+    padding: 3px;
+    margin-top: 10px;    
 }
 
-.jumbotron .new {
-	color: red;
+#wiki-body h1, #wiki-body h2 {
+	background-color: #222;
+    border-color: #080808;
 }
 
-.jumbotron h1 .mw-headline {
-	text-shadow: 1px 1px 0 #000;
+#wiki-outer-body {
+	margin-top:15px;
 }
 
-@media (min-width: 520px) {
-	.jumbotron pre {
-		width: 523px;
-	}
+subnav-fixed {
+	text-align: center;
+	
 }
 
-.mud-dir {
-	background: #fff;
-	border: 1px solid #eee;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.05 );
-	position: relative;
-}
-
-.mud-dir .reverse-short,
-.mud-dir .reverse-long,
-.mud-dir .long,
-.mud-dir .short {
-	padding: 0.5em;
-}
-
-.mud-dir .long {
-	display: none;
-	padding: 0.5em;
-}
-
-.mud-dir .toggle {
-	background: #eee;
-	color: #555;
-	cursor: pointer;
-	display: block;
-	font-size: 0.9em;
-	padding: 0.5em;
-}
-
-.mud-dir.show-long .long {
-	display: block;
-}
-
-.mud-dir.show-long .short {
-	display: none;
-}
-
-.mud-dir .reverse-short,
-.mud-dir .reverse-long {
-	display: none;
-}
-
-.mud-dir.show-reverse .short,
-.mud-dir.show-reverse .long {
-	display: none;
-}
-
-.mud-dir.show-reverse .reverse-short {
-	display: block;
-}
-
-.mud-dir.show-reverse.show-long .reverse-short {
-	display: none;
-}
-
-.mud-dir.show-reverse.show-long .reverse-long {
-	display: block;
+.mw-headline {
+	text-shadow: 0px;
 }

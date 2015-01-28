@@ -10,9 +10,16 @@
 
 if ( ! defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
 
+// G5K customization
+$wgNavBarClasses = 'navbar-inverse';
+$wgCopyright = 'Grid\'5000';
+$wgCopyrightLink = 'http://www.grid5000.fr';
+$wgSiteCSS = 'custom.css';
+
+
 $wgExtensionCredits['skin'][] = array(
 	'path'        => __FILE__,
-	'name'        => 'Bootstrap Mediawiki',
+	'name'        => 'Bootstrap Mediawiki Grid\'5000',
 	'url'         => 'http://borkweb.com',
 	'author'      => '[http://borkweb.com Matthew Batchelder]',
 	'description' => 'MediaWiki skin using Bootstrap 3',
@@ -27,12 +34,12 @@ $skinDir = array_pop( $skinDirParts );
 
 $wgResourceModules['skins.bootstrapmediawiki'] = array(
 	'styles' => array(
-		$skinDir . '/bootstrap/css/bootstrap.min.css'            => array( 'media' => 'all' ),
+		$skinDir . '/bootstrap/css/bootstrap.css'            => array( 'media' => 'all' ),
 		$skinDir . '/google-code-prettify/prettify.css'          => array( 'media' => 'all' ),
 		$skinDir . '/style.css'                                  => array( 'media' => 'all' ),
 	),
 	'scripts' => array(
-		$skinDir . '/bootstrap/js/bootstrap.min.js',
+		$skinDir . '/bootstrap/js/bootstrap.js',
 		$skinDir . '/google-code-prettify/prettify.js',
 		$skinDir . '/js/jquery.ba-dotimeout.min.js',
 		$skinDir . '/js/behavior.js',
@@ -54,3 +61,5 @@ if ( isset( $wgSiteJS ) ) {
 if ( isset( $wgSiteCSS ) ) {
 	$wgResourceModules['skins.bootstrapmediawiki']['styles'][] = $skinDir . '/' . $wgSiteCSS;
 }//end if
+
+
