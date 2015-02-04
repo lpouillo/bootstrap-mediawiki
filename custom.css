@@ -9,14 +9,14 @@ a {
 #wiki-body h1, #wiki-body h2, #wiki-body h3, #wiki-body h4, #wiki-body h5 {
     color: #FD9A01;
     font-weight:bold;
-	
     padding: 3px;
-    margin-top: 10px;    
+    margin-top: 0px;
+    margin-bottom: 3px;        
 }
 
 #wiki-body h1, #wiki-body h2 {
-	background-color: #222;
     border-color: #080808;
+    font-size:20px;
 }
 
 #wiki-outer-body {
@@ -28,6 +28,360 @@ subnav-fixed {
 	
 }
 
-.mw-headline {
-	text-shadow: 0px;
+.pagetitle {
+	margin-top:5px;
+	margin-bottom:5px;
 }
+
+.mw-headline {
+	text-shadow: 1px;
+}
+
+table.clean {
+    width: 100%;
+}
+table.clean td {
+    border-bottom: 1px dashed #e6e6fa;
+}
+table.clean th {
+    background-color: #e6e6fa;
+    text-align: center;
+}
+table.clean td {
+    background-color: #f5f5dc;
+    text-align: center;
+}
+.sorting_asc {
+    background: url("/mediawiki/skins/grid5000/G5KDataTables/sort_asc.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.sorting_desc {
+    background: url("/mediawiki/skins/grid5000/G5KDataTables/sort_desc.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.sorting {
+    background: url("/mediawiki/skins/grid5000/G5KDataTables/sort_both.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.sorting_asc_disabled {
+    background: url("/mediawiki/skins/grid5000/G5KDataTables/sort_asc_disabled.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.sorting_desc_disabled {
+    background: url("/mediawiki/skins/grid5000/G5KDataTables/sort_desc_disabled.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+table.migration {
+    width: 100%;
+}
+table.migration td {
+    border-bottom: 1px dashed #e6e6fa;
+}
+table.migration th {
+    background-color: #e6e6fa;
+}
+table.migration td.section {
+    background-color: #add8e6;
+    border-bottom: medium none;
+    font-weight: bold;
+}
+table.migration td.bordeaux, table.migration td.lille, table.migration td.nancy, table.migration td.rennes, table.migration td.toulouse {
+    background-color: #f5f5dc;
+    text-align: center;
+    width: 8%;
+}
+table.migration td.grenoble, table.migration td.lyon, table.migration td.orsay, table.migration td.sophia {
+    text-align: center;
+    width: 8%;
+}
+code {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+code.command, tt.command {
+    color: #045f04;
+}
+code.file, code.dir, tt.file, tt.dir {
+    color: #a04a05;
+}
+code.host, tt.host, code.domain, tt.domain {
+    color: #620e98;
+}
+code.env, tt.env {
+    color: #a09e02;
+}
+code.replace {
+    color: #fe5000;
+    font-weight: bold;
+}
+code.maintainer {
+    color: #6f8f07;
+    font-style: italic;
+}
+code.nameditem {
+    color: #88ff88;
+    font-style: italic;
+}
+span.maintainer {
+    color: #6f8f07;
+}
+span.toptask {
+    background-color: #ba0000;
+    color: white;
+}
+span.hightask {
+    background-color: #ff8888;
+}
+span.task {
+    background-color: #ffbbbb;
+}
+span.lowtask {
+    background-color: #ffdddd;
+}
+td.newtask {
+    background-color: #eeeeee;
+    vertical-align: top;
+}
+td.lowtask {
+    background-color: #ffdddd;
+    vertical-align: top;
+}
+td.normaltask {
+    background-color: #ffbbbb;
+    vertical-align: top;
+}
+td.hightask {
+    background-color: #ff8888;
+    vertical-align: top;
+}
+td.toptask {
+    background-color: #ba0000;
+    color: white;
+    vertical-align: top;
+}
+table.values {
+    background-color: #f9f9f9;
+    border: 1px dashed #2f6fab;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+table.values th {
+    background-color: #eef7ff;
+    border-bottom: 1px solid #2f6fab;
+    padding: 3px 5px;
+}
+table.values th.left, table.checks th.left {
+    text-align: left;
+}
+table.values td.left, table.checks td.left {
+    text-align: left;
+}
+table.values td, table.checks td {
+    border-top: 1px dashed #aaaaaa;
+    padding: 1px 4px;
+    text-align: center;
+}
+table.values td.right {
+    font-weight: bold;
+}
+table.values td.foot-left {
+    background-color: #eef7ff;
+    border-bottom: medium none;
+    border-top: 1px solid #2f6fab;
+    font-weight: bold;
+    text-align: left;
+}
+table.values td.foot-right {
+    background-color: #eef7ff;
+    border-bottom: medium none;
+    border-top: 1px solid #2f6fab;
+    font-weight: bold;
+}
+table.values td.foot {
+    background-color: #eef7ff;
+    border-bottom: medium none;
+    border-top: 1px solid #2f6fab;
+}
+table.checks {
+    background-color: #f9f9f9;
+    border: 1px dashed #68cb37;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+table.checks th {
+    background-color: #f4ffee;
+    border-bottom: 1px solid #68cb37;
+    padding: 3px 5px;
+}
+table.karafon {
+    background-color: #f9f9f9;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+table.karafon th {
+    background-color: #f4ffee;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px 5px;
+}
+table.karafon td {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding: 3px 5px;
+}
+table.program {
+    background-color: #f9f9f9;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+table.program th {
+    background-color: #f4ffee;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px 5px;
+}
+table.program td {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding: 3px 5px;
+    text-align: center;
+}
+table.tracks {
+    background-color: #f9f9f9;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+td.tracks {
+    border-bottom: 0 solid #000000;
+    padding: 0;
+    text-align: center;
+}
+div.todo table {
+    background-color: #f4ffee;
+    border: 1px dashed #68cb37;
+    color: #000000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+div.warning table {
+    background-color: #fff8ee;
+    border: 1px dashed #fcb444;
+    color: #000000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+div.note table {
+    background-color: #eef7ff;
+    border: 1px dashed #2f6fab;
+    color: #000000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+div.license table {
+    border: 1px dashed #2f6fab;
+    color: #000000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+div.help table {
+    background-color: #eef7ff;
+    border: 1px dashed #2f6fab;
+    color: #000000;
+    width: 100%;
+}
+div.term table {
+    background-color: #f9f9f9;
+    border: 1px dashed #2f6fab;
+    color: #000000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+div.sitelink {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    clear: both;
+    margin-top: 1em;
+    padding: 5px;
+}
+div.seealso {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    clear: both;
+    margin-top: 1em;
+    padding: 5px;
+}
+span.head {
+    background-color: #ff9780;
+}
+span.headsite, span.director {
+    background-color: #fcd597;
+}
+div.sysimage table {
+    background-color: #eef7ff;
+    border: 1px solid #2f6fab;
+    color: #000000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+div.sysimage table th {
+    background-color: #2f6fab;
+    color: white;
+    font-size: large;
+    padding-left: 0.5em;
+    text-align: left;
+}
+div.sysimage table td.notfirst {
+    border-top: 1px dashed #2f6fab;
+}
+div.tutorial table {
+    background-color: #f4ffee;
+    border: 1px solid #68cb37;
+    color: #000000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+div.tutorial table th {
+    background-color: #68cb37;
+    color: white;
+    font-size: large;
+    padding-left: 0.5em;
+    text-align: left;
+}
+div.tutorial table td.notfirst {
+    border-top: 1px dashed #68cb37;
+}
+div.question table {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 1em;
+    width: 100%;
+}
+
+

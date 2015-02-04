@@ -11,7 +11,7 @@
 if ( ! defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
 
 // G5K customization
-$wgNavBarClasses = 'navbar-inverse';
+/*$wgNavBarClasses = 'navbar-inverse';*/
 $wgCopyright = 'Grid\'5000';
 $wgCopyrightLink = 'http://www.grid5000.fr';
 $wgSiteCSS = 'custom.css';
