@@ -1,9 +1,10 @@
-a {
-	color: #95C901;
-}
 
 #wiki-body a {
     font-weight:bold;
+    color: #748278;
+}
+#wiki-body .editsection a {
+    color: black;
 }
 
 #wiki-body h1, #wiki-body h2, #wiki-body h3, #wiki-body h4, #wiki-body h5 {
@@ -21,6 +22,15 @@ a {
 
 #wiki-outer-body {
 	margin-top:15px;
+}
+
+
+
+.navbar-default {
+	background-color: #F5FFF5;
+}
+.navbar-default a {
+	color: white;
 }
 
 subnav-fixed {

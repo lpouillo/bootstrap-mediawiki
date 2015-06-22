@@ -60,7 +60,10 @@ p {
 .editsection {
 	float: right;
 	font-size: 0.8rem;
-	opacity: 0.2;
+	opacity: 0.5;
+}
+.editsection a {
+    color: #FFA336;
 }
 
 .editOptions .checkbox input:first-child {
