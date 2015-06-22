@@ -26,8 +26,8 @@ if(file_exists('includes/SkinTemplate.php')){
  */
 class SkinBootstrapMediaWiki extends SkinTemplate {
 	/** Using Bootstrap */
-	public $skinname = 'bootstrap-mediawiki';
-	public $stylename = 'bootstrap-mediawiki';
+	public $skinname = 'bootstrap-g5k';
+	public $stylename = 'bootstrap-g5k';
 	public $template = 'BootstrapMediaWikiTemplate';
 	public $useHeadElement = true;
 
@@ -52,7 +52,7 @@ class SkinBootstrapMediaWiki extends SkinTemplate {
 		$out->addModuleStyles( 'skins.bootstrapmediawiki' );
 
 		// we need to include this here so the file pathing is right
-		$out->addStyle( 'bootstrap-mediawiki/font-awesome/css/font-awesome.min.css' );
+		$out->addStyle( 'bootstrap-g5k/font-awesome/css/font-awesome.min.css' );
 	}//end setupSkinUserCss
 }
 
@@ -190,7 +190,6 @@ class BootstrapMediaWikiTemplate extends QuickTemplate {
 					if ( 'sidebar' == $wgTOCLocation ) {
 						?>
 						<div class="row">
-							<section class="col-md-3 toc-sidebar"></section>
 							<section class="col-md-9 wiki-body-section">
 						<?php
 					}//end if
@@ -232,7 +231,8 @@ class BootstrapMediaWikiTemplate extends QuickTemplate {
 				<?php
 					if ( 'sidebar' == $wgTOCLocation ) {
 						?>
-						</section></section>
+						</section>
+						<section class="col-md-3 toc-sidebar"></section></section>
 						<?php
 					}//end if
 				?>
